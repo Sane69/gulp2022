@@ -1,0 +1,13 @@
+@import "normalize";
+@import "variables";
+@import "adaptive";
+@import "header";
+@import "adaptiveValue";
+
+
+body {
+  background-color: rgb(184, 144, 95);
+  @include mediaw(1000px) {
+    background-color: rgb(47, 22, 22);
+  }
+}
